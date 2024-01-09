@@ -12,10 +12,41 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   background: linear-gradient(#4a55a2, #7895cb, #24243e);
   height: 350px;
   width: 250px;
   border-radius: 13px;
   box-shadow: 5px 10px 30px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 35px;
+  margin-bottom: 40px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  margin-bottom: 15px;
+  padding: 7px 4px;
+  border-radius: 3px;
+  background-color: #e0dede;
+}
+
+.sign-btn {
+  background-color: #7895cb;
+  margin-bottom: 30px;
+  border: none;
+  padding: 7px 4px;
+  border-radius: 3px;
+  width: 60%;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.sign-btn:hover {
+  background-color: #4a55a2;
 }
