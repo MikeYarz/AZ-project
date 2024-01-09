@@ -64,7 +64,7 @@ input {
   transform: translateY(-30px);
 }
 
-#login-form:checked {
+#login-form:active {
   transform: translateY(-270px);
 }
 
