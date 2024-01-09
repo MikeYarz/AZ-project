@@ -50,3 +50,26 @@ input {
 .sign-btn:hover {
   background-color: #4a55a2;
 }
+
+#login-form {
+  background: none;
+  background-color: #eee;
+  border-radius: 50px 50px 13px 13px;
+  transform: translateY(-50px);
+  overflow: hidden;
+}
+
+#log-head {
+  color: #4a55a2;
+  transform: translateY(-30px);
+}
+
+#login-form:checked {
+  transform: translateY(-270px);
+}
+
+.mein {
+  height: 350px;
+  width: 250px;
+  overflow: hidden;
+}
